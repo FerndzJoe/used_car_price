@@ -1,7 +1,7 @@
 # What drives the price of a car?
 
 <div align="center">
-    <img width="383" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/crisp.png">
+    <img width="383" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/kurt.jpeg">
 </div>
 
 ![](images/kurt.jpeg)
@@ -12,6 +12,10 @@
 In this application, you will explore a dataset from kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing.  Your goal is to understand what factors make a car more or less expensive.  As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
 
 ### CRISP-DM Framework
+
+<div align="center">
+    <img width="383" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/crisp.png">
+</div>
 
 <center>
     <img src = images/crisp.png width = 50%/>
