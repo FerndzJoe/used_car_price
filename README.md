@@ -117,6 +117,73 @@ Updated Project Timeline:
 - Some of the ordinal values had good data while others did not. Some of the One Hot Encoded values had poor data
 - Results reflected strong contributors to predictions when values existed and there were variance in the data to build correlation
 
+#### Ordinal Encoding 
+**condition :** Ordinal will be : salvage, fair, good, excellent, like new, new
+
+**cylinders :** Ordinal will be : 3 cylinders, 4 cylinders, 5 cylinders, 6 cylinders, 8 cylinders, 10 cylinders, 12 cylinders, other
+
+**title_status :** Ordinal will be : salvage, parts only, missing, rebuilt, lien, clean
+
+**drive :** Ordinal will be : rwd, fwd, 4wd
+
+**size :** Ordinal will be : compact, sub-compact, mid-size, full-size
+
+#### One Hot Encoding (OHE)
+
+**type :** Values for OHE will be : 'hatchback', 'coupe', 'sedan', 'convertible', 'SUV', 'wagon', 'pickup', 'other'
+ 'van' 'truck' 'mini-van' 'offroad'
+
+**paint_color :** Values for OHE will be : 'white', 'red', 'silver', 'black', 'blue', 'grey', 'green', 'brown', 'yellow',
+ 'orange', 'custom', 'purple'
+
+**transmission :** Ordinal will be : manual, automatic, other
+
+**fuel :** Ordinal will be : gas, diesel, hybrid, electric, other 
+
+Using Linear Regression, and GridSearchCV, cleaned dataset resulted in:
+
+- Ridge simple cross validation Train MSE: 92493878.08389969
+- Ridge simple cross validation Test MSE: 93180363.61416017
+- Best Ridge Alpha: {'ridge__alpha': 68.66488450043002}
+
+Using K-Fold of 10, cleaned dataset resulted in:
+- Ridge k-fold cross validation Train MSE: 92498992.3769556
+- Ridge k-fold cross validation Test MSE: 93134068.70667933
+- Best Ridge Alpha: {'ridge__alpha': 1.0}
+
+Performing the Permutation Importance on the cleaned dataset resulted in:
+The model score value is:  -110072110.262
+The Permutation Importance for all the wage dataset are:
+
+remainder__year          48,085,875.612 +/- 916142.548
+remainder__odometer      33,244,440.367 +/- 662899.713
+cat__fuel_diesel         12,059,939.628 +/- 251941.997
+cat__type_pickup         9,882,418.760 +/- 414450.272
+cat__type_sedan          6,038,728.832 +/- 390215.323
+cat__type_truck          4,909,030.036 +/- 258168.142
+ord__cylinders           2,985,739.807 +/- 231146.927
+cat__type_hatchback      2,860,376.142 +/- 227691.510
+cat__fuel_gas            2,728,432.247 +/- 155349.256
+ord__drive               2,052,602.233 +/- 181385.830
+ord__title_status        1,063,371.860 +/- 99859.356
+cat__type_wagon            899,228.642 +/- 122959.810
+cat__type_SUV              766,152.454 +/- 157775.801
+cat__type_mini-van         331,500.759 +/- 73574.842
+cat__paint_color_black     300,529.166 +/- 107741.581
+cat__type_convertible      233,274.952 +/- 108409.081
+cat__paint_color_silver    144,333.551 +/- 26627.525
+cat__fuel_hybrid           137,912.917 +/- 46731.006
+cat__paint_color_grey       62,346.088 +/- 18552.870
+cat__paint_color_blue       49,842.279 +/- 17584.877
+cat__paint_color_yellow     39,509.918 +/- 17839.834
+cat__paint_color_green      25,361.510 +/- 9366.497
+
+
+<div align="center">
+    <img width="800" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/corr_heatmat.png">
+</div>
+
+
 #### Conclusion
 
 This project used the structured CRISP-DM framework to address the business problem. All missing data was either removed or resolved by leveraging data from other attributes / records. With the limited data, the following observations were made.
