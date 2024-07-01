@@ -254,3 +254,11 @@ Having completed the analysis and summarized the finding, here are some of my re
 - **Pricing Strategy:** Analyze the data and create pricing strategy by State and Region. The sale price of a used car varies by state and region. Knowing the customer and the economic condition is critical to determine which car would be best for the customer. Additionally, acquire DMV data for cars and economic data. Use both this data to improve the pricing stategy for used car resale price.
 
 - **Continuous Model Refinement:** As we cleanse and acquire new data, it is important to revisit the model and refine them. Capture actual results of car resale price and compare them with existing data. If the data does not match the predicted values, models need to be refined further. Once we are able to predict the resale price of a car, it may reset the baseline of the existing data and trigger a need to rework the models for new baseline. It is important to understand that and continuously refine the models. 
+
+## Repository Structure
+- <code>data/vehicles.csv</code>: Contains dataset used in the analysis.
+- <code>notebooks/used-car-price-prediction.jpynb</code>: Jupyter notebook with code.
+- <code>README.md</code>: Summary of findings and link to notebook
+
+## Notebook
+The detailed analysis and code can be found in the Jupyter notebook <a href="https://github.com/mitbans/used-car-price-prediction/blob/main/notebooks/used-car-price-prediction.ipynb">here</a>.
