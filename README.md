@@ -103,7 +103,7 @@ Updated Project Timeline:
 - Resume work on 6/28 to finalize Data Preparation, Modeling, and Final summary
 - Publish the final document by Sunday 6/30
 
-#### Observations:
+### Observations:
 
 ##### Data Issues:
 
@@ -152,11 +152,12 @@ Using K-Fold of 10, cleaned dataset resulted in:
 - Best Ridge Alpha: {'ridge__alpha': 1.0}
 
 Performing the Permutation Importance on the cleaned dataset resulted in:
-The model score value is:  -110072110.262
-The Permutation Importance for all the wage dataset are:
+- The model score value is:  -110072110.262
+- The Permutation Importance for all the wage dataset are:
 
-remainder__year          48,085,875.612 +/- 916142.548
-remainder__odometer      33,244,440.367 +/- 662899.713
+```
+remainder__year          48,085,875.612 +/- 916142.548`
+remainder__odometer      33,244,440.367 +/- 662899.713`
 cat__fuel_diesel         12,059,939.628 +/- 251941.997
 cat__type_pickup         9,882,418.760 +/- 414450.272
 cat__type_sedan          6,038,728.832 +/- 390215.323
@@ -177,14 +178,33 @@ cat__paint_color_grey       62,346.088 +/- 18552.870
 cat__paint_color_blue       49,842.279 +/- 17584.877
 cat__paint_color_yellow     39,509.918 +/- 17839.834
 cat__paint_color_green      25,361.510 +/- 9366.497
+```
 
+#### Visualizations from the analysis
 
 <div align="center">
     <img width="800" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/corr_heatmat.png">
+    <img width="700" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/distrodometer.png">
+    <img width="700" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/distrprice.png">
+    <img width="700" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/distryear.png">
+</div>
+
+#### Learning Curve Results:
+
+<div align="center">
+    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/k-fold-lcurve.jpeg">
+    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/k-fold-ridge.jpeg">
+</div>
+
+#### Actuals vs Predicted Values:
+
+<div align="center">
+    <img width="600" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/ActualvsPredicted1.jpeg">
+    <img width="600" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/ActualvsPredicted2.jpeg">
 </div>
 
 
-#### Conclusion
+### Conclusion
 
 This project used the structured CRISP-DM framework to address the business problem. All missing data was either removed or resolved by leveraging data from other attributes / records. With the limited data, the following observations were made.
 
