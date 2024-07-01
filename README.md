@@ -256,8 +256,7 @@ Having completed the analysis and summarized the finding, here are some of my re
 - **Continuous Model Refinement:** As we cleanse and acquire new data, it is important to revisit the model and refine them. Capture actual results of car resale price and compare them with existing data. If the data does not match the predicted values, models need to be refined further. Once we are able to predict the resale price of a car, it may reset the baseline of the existing data and trigger a need to rework the models for new baseline. It is important to understand that and continuously refine the models. 
 
 ## Repository Structure
-- <code>data/vehicles.csv</code>: Contains dataset used in the analysis.
-- <code>notebooks/used-car-price-prediction.jpynb</code>: Jupyter notebook with code.
+- <code>notebook/used-car-price-prediction.jpynb</code>: Jupyter notebook with code.
 - <code>README.md</code>: Summary of findings and link to notebook
 
 ## Notebook
