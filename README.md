@@ -1,5 +1,6 @@
-What drives the price of a car?
-Image
+# What drives the price of a car?
+
+![](images/kurt.jpeg)
 
 OVERVIEW
 
