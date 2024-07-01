@@ -234,10 +234,10 @@ This project used the structured CRISP-DM framework to address the business prob
 Having completed the analysis and summarized the finding, here are some of my recommendation in case someone is planning to redo this exercise.
 
 - Perform 4 different sets of analysis
-   - #1 Remove all missing values and process only records that have all the values in each row
-   - #2 Separate the data by state and region; analyze them separately. The resale price of a car in one state will be different from others as the customer preferences vary
-   - #3 Before removing all the missing values, use other attributes to determine if missing data can be recreated. For example, an electric car does not have cylinders. It should remain null and should be acceptable. Replace null with 'not applicable'. That way we are not removing null rows. Similarly, find anomolies and exclude them. For example, there are fewer manufacturers that make and sell 5 cylinder cars. Also, based on regulatory needs, some dataset can be eliminated such as cars with fuel type diesel. Focus on gas, electric, and hybrid for analysis
-   - #4 Remove columns that are not required for analysis and consolidate columns if possible. For example, State and Region can be analyzed and only one of them may be required for analysis
+  1. Remove all missing values and process only records that have all the values in each row
+  2. Separate the data by state and region; analyze them separately. The resale price of a car in one state will be different from others as the customer preferences vary
+  3. Before removing all the missing values, use other attributes to determine if missing data can be recreated. For example, an electric car does not have cylinders. It should remain null and should be acceptable. Replace null with 'not applicable'. That way we are not removing null rows. Similarly, find anomolies and exclude them. For example, there are fewer manufacturers that make and sell 5 cylinder cars. Also, based on regulatory needs, some dataset can be eliminated such as cars with fuel type diesel. Focus on gas, electric, and hybrid for analysis
+  4. Remove columns that are not required for analysis and consolidate columns if possible. For example, State and Region can be analyzed and only one of them may be required for analysis
  
 - Based on data visualization, further reduction of data can be made such as excluding anomolies. Also in some cases, applying Ordinal or Label encoding may be better than One Hot Encoding. Use different approaches to determine how the data is correlated
 
