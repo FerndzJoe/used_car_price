@@ -1,7 +1,7 @@
 # What drives the price of a car?
 
 <div align="center">
-    <img width="383" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/kurt.jpeg">
+    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/kurt.jpeg">
 </div>
 
 ![](images/kurt.jpeg)
@@ -14,7 +14,7 @@ In this application, you will explore a dataset from kaggle. The original datase
 ### CRISP-DM Framework
 
 <div align="center">
-    <img width="383" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/crisp.png">
+    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/crisp.png">
 </div>
 
 <center>
