@@ -1,5 +1,9 @@
 # What drives the price of a car?
 
+<div align="center">
+    <img width="383" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/crisp.png">
+</div>
+
 ![](images/kurt.jpeg)
 
 
