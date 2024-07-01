@@ -1,7 +1,7 @@
 # What drives the price of a car?
 
 <div align="center">
-    <img width="800" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/kurt.jpeg">
+    <img width="800" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/kurt.jpeg">
 </div>
 
 **OVERVIEW**
@@ -11,7 +11,7 @@ In this application, you will explore a dataset from kaggle. The original datase
 ### CRISP-DM Framework
 
 <div align="center">
-    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/crisp.png">
+    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/crisp.png">
 </div>
 
 To frame the task, throughout our practical applications we will refer back to a standard process in industry for data projects called CRISP-DM.  This process provides a framework for working through a data problem.  Your first step in this application will be to read through a brief overview of CRISP-DM [here](https://mo-pcco.s3.us-east-1.amazonaws.com/BH-PCMLAI/module_11/readings_starter.zip).  After reading the overview, answer the questions below.
@@ -183,24 +183,24 @@ cat__paint_color_green      25,361.510 +/- 9366.497
 #### Visualizations from the analysis
 
 <div align="center">
-    <img width="800" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/corr_heatmat.png">
-    <img width="700" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/distrodometer.png">
-    <img width="700" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/distrprice.png">
-    <img width="700" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/distryear.png">
+    <img width="800" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/corr_heatmat.png">
+    <img width="700" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/distrodometer.png">
+    <img width="700" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/distrprice.png">
+    <img width="700" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/distryear.png">
 </div>
 
 #### Learning Curve Results:
 
 <div align="center">
-    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/k-fold-lcurve.jpeg">
-    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/k-fold-ridge.jpeg">
+    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/k-fold-lcurve.jpeg">
+    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/k-fold-ridge.jpeg">
 </div>
 
 #### Actuals vs Predicted Values:
 
 <div align="center">
-    <img width="600" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/ActualvsPredicted1.jpeg">
-    <img width="600" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/ActualvsPredicted2.jpeg">
+    <img width="600" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/ActualvsPredicted1.jpeg">
+    <img width="600" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/images/ActualvsPredicted2.jpeg">
 </div>
 
 
