@@ -1,7 +1,7 @@
 # What drives the price of a car?
 
 <div align="center">
-    <img width="500" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/kurt.jpeg">
+    <img width="800" alt="image" src="https://github.com/FerndzJoe/used_car_price/blob/main/Images/kurt.jpeg">
 </div>
 
 ![](images/kurt.jpeg)
